@@ -9,6 +9,7 @@ title: DeepInspect
 
 ## [Bias bugs](/bias_bugs.html)
 
+<iframe width="560" height="315" src="https://deeplearninginspect.github.io/DeepInspect/bias_bugs.html" frameborder="0" allowfullscreen></iframe>
 
 
 
