@@ -1,102 +1,229 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>DeepInspect</title>
-<meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="DeepInspect" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://deeplearninginspect.github.io/DeepInspect/" />
-<meta property="og:url" content="https://deeplearninginspect.github.io/DeepInspect/" />
-<meta property="og:site_name" content="DeepInspect" />
-<script type="application/ld+json">
-{"@type":"WebSite","url":"https://deeplearninginspect.github.io/DeepInspect/","headline":"DeepInspect","name":"DeepInspect","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+    <title>DeepInspect</title>
+    <meta name="generator" content="Jekyll v3.7.4" />
+    <meta property="og:title" content="DeepInspect" />
+    <meta property="og:locale" content="en_US" />
+    <link
+      rel="canonical"
+      href="https://deeplearninginspect.github.io/DeepInspect/"
+    />
+    <meta
+      property="og:url"
+      content="https://deeplearninginspect.github.io/DeepInspect/"
+    />
+    <meta property="og:site_name" content="DeepInspect" />
+    <script type="application/ld+json">
+      {
+        "@type": "WebSite",
+        "url": "https://deeplearninginspect.github.io/DeepInspect/",
+        "headline": "DeepInspect",
+        "name": "DeepInspect",
+        "@context": "http://schema.org"
+      }
+    </script>
+    <!-- End Jekyll SEO tag -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/DeepInspect/assets/css/style.css?v=0f103214156238f9b79da55049039548350e44bb">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#157878" />
+    <link
+      rel="stylesheet"
+      href="/DeepInspect/assets/css/style.css?v=0f103214156238f9b79da55049039548350e44bb"
+    />
   </head>
   <body>
-    
     <section class="main-content">
       <h3 id="confusion-bugs">Bias bugs</h3>
-<h4 id="coco">COCO with gender:</h4>
-<table>
-  <tr>
-    <td colspan="5">bugs: given <i>horst, surfboard, skis, or frisbee</i> and <i>woman</i> images, COCO model predicts <i>man</i></td>
-  </tr>
-  <tr>
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000107227.jpg" width="400" /></td> 
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000169514.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000295957.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000360409.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000389273.jpg" width="400" /></td>
-  </tr>
-  <tr>
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000457271.jpg" width="400" /></td> 
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000476709.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000493442.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000525899.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/coco_gender/COCO_val2014_000000573088.jpg" width="400" /></td>
-  </tr>
-  
-</table>
-      
+      <h4 id="coco">COCO with gender:</h4>
+      <table>
+        <tr>
+          <td colspan="5">
+            bugs: given <i>horst, surfboard, skis, or frisbee</i> and
+            <i>woman</i> images, COCO model predicts <i>man</i>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000107227.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000169514.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000295957.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000360409.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000389273.jpg"
+              width="400"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000457271.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000476709.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000493442.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000525899.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/coco_gender/COCO_val2014_000000573088.jpg"
+              width="400"
+            />
+          </td>
+        </tr>
+      </table>
 
+      <h4 id="imsitu">imSitu:</h4>
+      <table>
+        <tr>
+          <td colspan="5">
+            bugs: given <i>inside or room</i> and <i>man</i> images, imSitu
+            model predicts <i>woman</i>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./bias_bugs/imsitu/inside/buttoning_108.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imsitu/inside/deflecting_222.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imsitu/inside/educating_117.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imsitu/inside/encouraging_131.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/inside/hunching_118.jpg" width="400" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./bias_bugs/imsitu/inside/installing_213.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imsitu/inside/interviewing_164.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/inside/shushing_297.jpg" width="400" />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/inside/twisting_16.jpg" width="400" />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/inside/twisting_191.jpg" width="400" />
+          </td>
+        </tr>
+      </table>
 
-<h4 id="imsitu">imSitu:</h4>
-<table>
-  <tr>
-    <td colspan="5">bugs: given <i>inside or room</i> and <i>man</i> images, imSitu model predicts <i>woman</i></td>
-  </tr>
-  <tr>
-    <td><img src="./bias_bugs/imsitu/inside/buttoning_108.jpg" width="400" /></td> 
-    <td><img src="./bias_bugs/imsitu/inside/deflecting_222.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/inside/educating_117.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/inside/encouraging_131.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/inside/hunching_118.jpg" width="400" /></td>
-  </tr>
-  <tr>
-    <td><img src="./bias_bugs/imsitu/inside/installing_213.jpg" width="400" /></td> 
-    <td><img src="./bias_bugs/imsitu/inside/interviewing_164.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/inside/shushing_297.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/inside/twisting_16.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/inside/twisting_191.jpg" width="400" /></td>
-  </tr>
-  
-</table>
+      <table>
+        <tr>
+          <td colspan="5">
+            bugs: given <i>outside</i> and <i>woman</i> images, imSitu model
+            predicts <i>man</i>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./bias_bugs/imsitu/outside/displaying_264.jpg"
+              width="400"
+            />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/outside/leaning_56.jpg" width="400" />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/outside/patting_233.jpg" width="400" />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/outside/poking_108.jpg" width="400" />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/outside/pumping_81.jpg" width="400" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="./bias_bugs/imsitu/outside/rotting_79.jpg" width="400" />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/outside/slipping_10.jpg" width="400" />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/outside/slipping_94.jpg" width="400" />
+          </td>
+          <td>
+            <img src="./bias_bugs/imsitu/outside/smiling_290.jpg" width="400" />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imsitu/outside/whistling_40.jpg"
+              width="400"
+            />
+          </td>
+        </tr>
+      </table>
 
-<table>
-  <tr>
-    <td colspan="5">bugs: given <i>outside</i> and <i>woman</i> images, imSitu model predicts <i>man</i></td>
-  </tr>
-  <tr>
-    <td><img src="./bias_bugs/imsitu/outside/displaying_264.jpg" width="400" /></td> 
-    <td><img src="./bias_bugs/imsitu/outside/leaning_56.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/outside/patting_233.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/outside/poking_108.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/outside/pumping_81.jpg" width="400" /></td>
-  </tr>
-  <tr>
-    <td><img src="./bias_bugs/imsitu/outside/rotting_79.jpg" width="400" /></td> 
-    <td><img src="./bias_bugs/imsitu/outside/slipping_10.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/outside/slipping_94.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/outside/smiling_290.jpg" width="400" /></td>
-    <td><img src="./bias_bugs/imsitu/outside/whistling_40.jpg" width="400" /></td>
-  </tr>
-  
-</table>
-
-
-
-<h4 id="imagenet">ImageNet:</h4>
-
-      
+      <h4 id="imagenet">ImageNet:</h4>
     </section>
-
-    
   </body>
 </html>
