@@ -226,35 +226,71 @@
       <h4 id="imagenet">ImageNet:</h4>
       <table>
         <tr>
-          <td colspan="5">
-            bugs: given <i>Norwich_terrier</i> images, ImageNet model predicts
-            <i>Australian_terrier</i>. The model tends to be more likely to make
-            mistake betwen Australian_terrier and Norwich_terrier, compared with
-            rubber_eraser and Norwich_terrier.
+          <td colspan="3">
+            bugs: given <i>Australian_terrier</i> images, ImageNet model
+            predicts <i>Norwich_terrier</i>. The model tends to be more likely
+            to make mistake betwen Australian_terrier and Norwich_terrier,
+            compared with rubber_eraser and Norwich_terrier.
           </td>
         </tr>
         <tr>
           <td>
             <img
-              src="./bias_bugs/imagenet/ILSVRC2012_val_00038601.JPEG"
+              src="./bias_bugs/imagenet/Australian_terrier_to_Norwich_terrier/ILSVRC2012_val_00038601.JPEG"
               width="400"
             />
           </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/Australian_terrier_to_Norwich_terrier/ILSVRC2012_val_00016374.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/Australian_terrier_to_Norwich_terrier/ILSVRC2012_val_00016609.JPEG"
+              width="400"
+            />
+          </td>
+          <!-- <td>
+            <img
+              src="./bias_bugs/imagenet/Australian_terrier_to_Norwich_terrier/ILSVRC2012_val_00017380.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/Australian_terrier_to_Norwich_terrier/ILSVRC2012_val_00029254.JPEG"
+              width="400"
+            />
+          </td> -->
         </tr>
       </table>
 
       <table>
         <tr>
-          <td colspan="5">
-            bugs: given <i>macaque</i> images, ImageNet model predicts
-            <i>langur</i>. The model tends to be more likely to make mistake
+          <td colspan="3">
+            bugs: given <i>langur</i> images, ImageNet model predicts
+            <i>macaque</i>. The model tends to be more likely to make mistake
             betwen langur and macaque, compared with screwdriver and macaque.
           </td>
         </tr>
         <tr>
           <td>
             <img
-              src="./bias_bugs/imagenet/ILSVRC2012_val_00043643.JPEG"
+              src="./bias_bugs/imagenet/langur_to_macaque/ILSVRC2012_val_00003438.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/langur_to_macaque/ILSVRC2012_val_00038601.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/langur_to_macaque/ILSVRC2012_val_00039225.JPEG"
               width="400"
             />
           </td>
@@ -263,17 +299,103 @@
 
       <table>
         <tr>
-          <td colspan="5">
-            bugs: given <i>Eskimo_dog</i> images, ImageNet model predicts
-            <i>Siberian_husky</i>. The model tends to be more likely to make
-            mistake betwen Eskimo_dog and Siberian_husky, compared with rapeseed
-            and Siberian_husky.
+          <td colspan="3">
+            bugs: given <i>Siberian_husky</i> images, ImageNet model predicts
+            <i>Eskimo_dog</i>. The model tends to be more likely to make mistake
+            betwen Eskimo_dog and Siberian_husky, compared with rapeseed and
+            Siberian_husky.
           </td>
         </tr>
         <tr>
           <td>
             <img
-              src="./bias_bugs/imagenet/ILSVRC2012_val_00025912.JPEG"
+              src="./bias_bugs/imagenet/Siberian_husky_to_Eskimo_dog/ILSVRC2012_val_00033039.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/Siberian_husky_to_Eskimo_dog/ILSVRC2012_val_00041649.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/Siberian_husky_to_Eskimo_dog/ILSVRC2012_val_00041840.JPEG"
+              width="400"
+            />
+          </td>
+          <!-- <td>
+            <img
+              src="./bias_bugs/imagenet/Siberian_husky_to_Eskimo_dog/ILSVRC2012_val_00043643.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/Siberian_husky_to_Eskimo_dog/ILSVRC2012_val_00049291.JPEG"
+              width="400"
+            />
+          </td> -->
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <td colspan="3">
+            bugs: given <i>night_snake</i> images, ImageNet model predicts
+            <i>king_snake</i>. The model tends to be more likely to make mistake
+            betwen night_snake and king_snake, compared with beacon and
+            king_snake.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/night_snake_to_king_snake/ILSVRC2012_val_00025727.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/night_snake_to_king_snake/ILSVRC2012_val_00034000.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/night_snake_to_king_snake/ILSVRC2012_val_00045858.JPEG"
+              width="400"
+            />
+          </td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <td colspan="3">
+            bugs: given <i>spider_monkey</i> images, ImageNet model predicts
+            <i>Titi</i>. The model tends to be more likely to make mistake
+            betwen Titi and spider_monkey, compared with wooden_spoon and
+            spider_monkey.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/spider_monkey_to_titi/ILSVRC2012_val_00035861.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/spider_monkey_to_titi/ILSVRC2012_val_00039302.JPEG"
+              width="400"
+            />
+          </td>
+          <td>
+            <img
+              src="./bias_bugs/imagenet/spider_monkey_to_titi/ILSVRC2012_val_00045647.JPEG"
               width="400"
             />
           </td>
